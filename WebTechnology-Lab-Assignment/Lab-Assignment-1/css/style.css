@@ -1,0 +1,56 @@
+/* this project is created by krishna  */
+body {
+    background: #c2e59c;
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
+    background: linear-gradient(to right, #64b3f4, #c2e59c);
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(128, 7, 241);
+    border-radius: 5px;
+}
+
+th {
+    color: Blue;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: x-large;
+    text-shadow: 2px 1px rgb(243, 230, 241);
+
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+    font-size: large;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300px;
+    color: #1913c6;
+    text-shadow: 1px 1px rgb(131, 203, 95);
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    color: gray;
+    text-shadow: 2px, 2px red;
+}
+
+#title1 {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    color: rgb(235, 9, 9);
+    font-weight: bold;
+    text-shadow: 2px 2px violet;
+}
