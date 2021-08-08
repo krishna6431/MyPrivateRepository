@@ -25,3 +25,4 @@ function bmiCalculator() {
     }
     document.getElementById("result").innerHTML = bmi.toString() + " " + check;
 }
+document.getElementById("copyright").innerHTML = "Copyright © Krishna. All Rights Reserved."
